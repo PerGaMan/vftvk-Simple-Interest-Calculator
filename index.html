@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Simple Interest Calculator</title>
+        <title>web App - Simple Interest Calculator</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
@@ -14,11 +14,12 @@
 
         <table>
         <tr>
-        <td> Amount </td> <td><input type="number"  id="principal"></td> 
+            <!-- inputfield is cleared when "onfocus"-->
+        <td> Amount </td> <td><input type="number" onfocus="this.value=''"  id="principal"></td> 
         </tr>
         <!-- interest rate range input with visually showed value-->
         <tr>
-            <td> Interest Rate </td> <td> <input onchange="updateRate()" type="range" id="rate" min="1" max="20" step="0.25" value="10.25">  <span id="rate_val">10.25%</span> </td>
+            <td> Interest Rate </td> <td> <input onchange="updateRate()" type="range" id="rate" min="1" max="20" step="0.25" value="10.25">  <span id="rate_val">10.25</span> %</td>
         </tr>
         <!-- no. of years in dropdown-->
         <tr>
