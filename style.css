@@ -7,17 +7,20 @@ h1{color:gray;font-family: verdana}
 	width: 600px;
 	padding: 20px;
 	border-radius: 25px;
+	/*to middle*/
 	margin: auto
 
 	}
 	table  {
+		/*table align*/
 		margin-right: 12%;
 		margin-left: 12%;
+		/*columns in line*/
 		border-spacing: 5px
 
 }
 
-
+/*highlight numbers in result*/
 span.highlight{
 	background-color: #FFFF00
 }
