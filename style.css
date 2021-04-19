@@ -8,10 +8,16 @@ h1{color:gray;font-family: verdana}
 	padding: 20px;
 	border-radius: 25px;
 	margin: auto
+
 	}
-	table {
-  border-spacing: 10px
+	table  {
+		margin-right: 12%;
+		margin-left: 12%;
+		border-spacing: 5px
+
 }
+
+
 span.highlight{
 	background-color: #FFFF00
 }
