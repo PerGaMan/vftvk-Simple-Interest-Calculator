@@ -15,7 +15,7 @@ if (principal <= 0) {
 	/* if input is positive number, compute func runs*/
  else {
  	/*numbers in result are in span tag*/
-document.getElementById("result").innerHTML= "If you deposit <span class=highlight>"+principal+"</span>, \<br\>at an interest rate <span class=highlight>"+rate+"</span> %, \<br\>You will receive an amount of <span class=highlight>"+interest+"</span>, \<br\>in the year <span class=highlight>"+year+"</span> \<br\>"
+document.getElementById("result").innerHTML= "If you deposit <span class=highlight>"+principal+"</span>, \<br\>at an interest rate of <span class=highlight>"+rate+"</span> %, \<br\>You will receive an amount of <span class=highlight>"+interest+"</span>, \<br\>in the year <span class=highlight>"+year+"</span> \<br\>"
 }
 }
 /* rate value updated when range is adjusted*/
